@@ -104,7 +104,7 @@ The shebang defining which shell will be used to start the script.
 ### Usage Examples
 
 #### Custom Options
-In this example, we change the location of the log file and set the port to 4000. We choose to put the satrup script in the 'dist' folder.
+In this example, we change the location of the log file and set the port to 4000. We choose to put the satrup script in the '/etc/init.d' folder.
 
 ```js
 grunt.initConfig({
@@ -116,7 +116,7 @@ grunt.initConfig({
       }
     },
     files: [
-        {dest: 'startup'}
+        {dest: '/etc/init.d'}
     ],
   },
 });
