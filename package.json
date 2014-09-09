@@ -1,7 +1,7 @@
 {
   "name": "grunt-node-startup",
-  "description": "The best Grunt plugin ever.",
-  "version": "0.1.0",
+  "description": "Generates a unix startup file for your node application.",
+  "version": "0.1.1",
   "homepage": "paulvarache.ninja",
   "author": {
     "name": "Paul Varache",
