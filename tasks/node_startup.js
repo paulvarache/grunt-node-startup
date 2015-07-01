@@ -38,6 +38,7 @@ module.exports = function(grunt) {
                 pid_file: pid_file,
                 log_dir: log_dir,
                 log_file: log_file,
+                node_exec: node_exec,
                 shebang: "/bin/sh",
                 vars: {
                     CONFIG_DIR: app_dir,
