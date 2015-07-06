@@ -33,7 +33,7 @@ get_pid() {
 
 is_running() {
     PID=$(get_pid)
-    ! [ -z "$(ps ef | awk '{print $1}' | grep "^$PID$")" ]
+    ! [ -z "$(ps -e | awk '{print $1}' | grep "^$PID$")" ]
 }
 
 start_it() {
